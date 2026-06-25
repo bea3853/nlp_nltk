@@ -5,8 +5,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 from deep_translator import GoogleTranslator
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-# Instalação rápida caso queira testar: pip install spacy
-# Depois baixe o modelo em português: python -m spacy download pt_core_news_sm
+
 
 
 # Garante o download do dicionário VADER
